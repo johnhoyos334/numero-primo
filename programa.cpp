@@ -14,13 +14,14 @@ bool esprimo(int n)  {
 }
 int main(){
     int n;
+    cout << "Ingrese un numero: ";
     if( cin >> n){
         if (esprimo (n)){
-            cout<<"primo"<<endl;
+            cout<<"el numero es primo"<<endl;
 
         }
         else{
-            cout<<"no primo"<<endl;
+            cout<<"el numero no es primo"<<endl;
         }
     }
     return  0;
