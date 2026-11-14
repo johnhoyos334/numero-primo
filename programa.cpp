@@ -17,11 +17,11 @@ int main(){
     cout << "Ingrese un numero: ";
     if( cin >> n){
         if (esprimo (n)){
-            cout<<"el numero es primo"<<endl;
+            cout<<"el numero "<<n<<" es primo"<<endl;
 
         }
         else{
-            cout<<"el numero no es primo"<<endl;
+            cout<<"el numero "<<n<<" no es primo"<<endl;
         }
     }
     return  0;
